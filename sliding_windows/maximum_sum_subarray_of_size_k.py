@@ -25,6 +25,9 @@ def max_sub_brute(arr,k):
 
 """
 Optimized Solution: O(N)
+- slide the window by one element forward at a time
+- subtract the first element of the window
+- add the new element
 """
 def max_sub_opt(arr,k):
     max_sum = 0 #a variable to record the answer 
