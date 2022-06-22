@@ -4,7 +4,7 @@ You can assume that K is less than or equal to the length of the given string.
 """
 
 """
-Solution : Sliding window + hash map 
+Solution : Sliding window + hash map O(N)
 """
 
 def longest_substring_with_k_distinct(string,k):
