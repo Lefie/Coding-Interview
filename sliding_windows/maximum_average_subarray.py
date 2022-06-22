@@ -4,7 +4,7 @@ elements in it.
 """
 
 """
-Brute Force solution: #O(N*K)
+Brute Force solution: O(N*K)
 - loop through every k contiguous element and calculate all of their avergaes
 """
 
