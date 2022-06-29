@@ -45,7 +45,7 @@ def find_permutation(str1, pattern):
 """
 Test:
 """
-string = "oidbcaf"
-pattern = "ac"
+string = "oidbacaf"
+pattern = "acfa"
 
 print(find_permutation(string,pattern))
