@@ -16,4 +16,6 @@ Notes mainly from Grokking the Coding Interview as well as other resources such 
 
 * [Two pointers](https://github.com/Lefie/Coding-Interview/tree/main/two_pointers)
     * [Pair with Target Sum](https://github.com/Lefie/Coding-Interview/blob/main/two_pointers/pair_with_target_sum.py)
+    * [Remove Duplicates](https://github.com/Lefie/Coding-Interview/blob/main/two_pointers/remove_duplicates.py)
+    * [Remove All Keys](https://github.com/Lefie/Coding-Interview/blob/main/two_pointers/remove_all_target_key.py)
 
