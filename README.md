@@ -14,3 +14,6 @@ Notes mainly from Grokking the Coding Interview as well as other resources such 
     * [Permutation in a String](https://github.com/Lefie/Coding-Interview/blob/main/sliding_windows/permutation_in_a_string.py)
     * [String Anagrams](https://github.com/Lefie/Coding-Interview/blob/main/sliding_windows/string_anagrams.py)
 
+* [Two pointers](https://github.com/Lefie/Coding-Interview/tree/main/two_pointers)
+    * [Pair with Target Sum](https://github.com/Lefie/Coding-Interview/blob/main/two_pointers/pair_with_target_sum.py)
+
