@@ -34,13 +34,36 @@ def find_pair(arr,target):
         
     return None #return None if no such pair is found
 
+
+# Here is an alternative O(N) solution where a hash map is utilized 
+def alternative(arr,target):
+    hash_table={} # a dictionary to record the element and its inddex
+
+    for i in range(len(arr)): #record all elements and their indices in the array
+        hash_table[arr[i]] = i
+    
+    for i in range(len(arr)): 
+        complement = target - arr[i] #find complememt to the target
+        if complement in hash_table: #if the complement is found in the hash map, we have found the pair 
+            answer1 = i
+            answer2 = hash_table[complement]
+            answer=[answer1,answer2]
+            return answer
+    
+    return None #if nothing is found ,return None
+
 """
 Testing
 """
 
 arr=[2,5,9,11]
-target = 7
+target = 20
 
 result = find_pair(arr,target)
+result2 = alternative(arr,target)
 
 print(result)
+print(result2)
+
+
+        
