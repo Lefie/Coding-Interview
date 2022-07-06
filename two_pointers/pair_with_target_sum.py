@@ -11,6 +11,8 @@ such that they add up to the given target.
 
 
 
+# Solution : O(N)
+
 def find_pair(arr,target):
     
     #we define two pointers: pt1 pointing at the beginning and pt2 pointing at the end
