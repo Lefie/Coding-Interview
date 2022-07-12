@@ -20,7 +20,7 @@ Notes mainly from Grokking the Coding Interview as well as other resources such 
     * [Remove All Keys](https://github.com/Lefie/Coding-Interview/blob/main/two_pointers/remove_all_target_key.py)
     * [Squaring a Sorted Array](https://github.com/Lefie/Coding-Interview/blob/main/two_pointers/squaring_a_sorted_array.py)
     * [Triplet Sum to Zero](https://github.com/Lefie/Coding-Interview/blob/main/two_pointers/triple_sum_to_zero.py)
-    * [Triplet Sum Close to Target](https://github.com/Lefie/Coding-Interview/blob/main/two_pointers/triplet_sum_close_to_target.py)
+    * [Triplet Sum Close to Target](https://github.com/Lefie/Coding-Interview/blob/main/two_pointers/triple_sum_close_to_target.py)
     * [Triplets with Smaller Sum](https://github.com/Lefie/Coding-Interview/blob/main/two_pointers/triplets_with_smaller_sum.py)
     * [Subarrays with Product Less than a Target](https://github.com/Lefie/Coding-Interview/blob/main/two_pointers/subarrays_with_product_less_than_a_target.py)
     * [Dutch National Flag](https://github.com/Lefie/Coding-Interview/blob/main/two_pointers/dutch_national_flag.py)
