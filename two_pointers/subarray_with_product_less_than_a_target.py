@@ -9,6 +9,7 @@ find all of its contiguous subarrays whose product is less than the target numbe
 
 """
 Solution: O(N^3) worst case
+Technique : sliding window + two pointers 
 """
 def numSubarrayProductLessThanK(nums, k):
     result =[] # a storage space to store the answers
