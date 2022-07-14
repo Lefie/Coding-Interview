@@ -25,5 +25,8 @@ Notes mainly from Grokking the Coding Interview as well as other resources such 
     * [Subarrays with Product Less than a Target](https://github.com/Lefie/Coding-Interview/blob/main/two_pointers/subarrays_with_product_less_than_a_target.py)
     * [Dutch National Flag](https://github.com/Lefie/Coding-Interview/blob/main/two_pointers/dutch_national_flag.py)
     * [Quadruple Sum to Target](https://github.com/Lefie/Coding-Interview/blob/main/two_pointers/quadruple_sum_to_target.py)
+    * [Comparing Strings Containing Backspaces](https://github.com/Lefie/Coding-Interview/blob/main/two_pointers/comparing_strings_containing_backspaces.py)
+    * [Minimum Window Sort](https://github.com/Lefie/Coding-Interview/blob/main/two_pointers/minimum_window_sort.py)
+    
 
 
