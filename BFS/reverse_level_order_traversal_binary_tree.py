@@ -1,13 +1,13 @@
 
 import collections
 """
-Given a binary tree, populate an array to represent its level-by-level traversal. You should
- populate the values of all nodes of each level from left to right in separate sub-arrays.
+Given a binary tree, populate an array to represent its level-by-level traversal in reverse order, i.e., the 
+lowest level comes first. You should populate the values of all nodes in each level from left to right in separate sub-arrays.
 """
 
 """
 Input : a root node
-Output : A list of sublists of nodes on each level
+Output : A list of sublists of nodes on each level but in reverse
 
 TC : O(N) - we traverse each node exactly once
 """
@@ -31,9 +31,10 @@ node2.left = node3
 node2.right = node4
 
 def levelOrder(rootNode):
-    result = [] #record the final result 
+    result = collections.deque() #record the final result 
     Q = collections.deque() #we initialize a queue to record the nodes level by level
     Q.append(rootNode) #we initialize the queue to have only the root node 
+    end_result = []
 
     while (Q): #while Q is not empty, the algo keeps going 
         length = len(Q) #the number of nodes at a particular level
@@ -46,9 +47,8 @@ def levelOrder(rootNode):
                     Q.append(cur_node.left)
                 if cur_node.right: #if there exists a right child, add the right child to the queue 
                     Q.append(cur_node.right)
-        result.append(sublist) #add each level to the final result 
+        result.appendleft(sublist) #add each level to the final result 
     
-  
 
     return result
 
